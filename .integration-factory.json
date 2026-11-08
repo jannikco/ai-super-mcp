@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "d54204627325e46455efcc291d62f518541c3eb1fd46b03e4cef82e94e920036",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://aibotsuper.com/api-docs/openapi.json"
+  ],
+  "id": "ai-super-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AI Super MCP setup and connection checker",
+  "description": "Generate AI Super MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "ai-super",
+  "appName": "AI Super",
+  "providerDocs": "https://aibotsuper.com/api-docs/openapi.json",
+  "providerWebsite": "https://aibotsuper.com/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://aibotsuper.com/api-docs/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-ai-super-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
