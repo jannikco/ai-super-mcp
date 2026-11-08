@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-ai-super",
+      "description": "Connect AI agents to AI Super using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-ai-super/SKILL.md": "ab07ee58d60b55cf26ae16ab9f6d7b5b82d54d38bae15f77132e7c51bbd3e4c5"
+  }
+}
